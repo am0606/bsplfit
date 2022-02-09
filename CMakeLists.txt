@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(nurbsfit)
+
+set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED on)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra")
+
+add_executable(bsplfit bsplfit.cpp Spline3.cpp BSplineCurve.cpp strtools.cpp)
