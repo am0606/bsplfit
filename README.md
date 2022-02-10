@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-To ensure flexibility and convenience of working with geometric models in CAD systems, algorithms for converting geometric representations are becoming in demand, among which methods of their one-to-one and exact transformation are of great importance. Here we propose a technique for converting a spline curve into a corresponding equivalent B-spline curve based on combining Bezier segments and the removal of multiple knots to obtain a more compact B-spline representation. This approach makes it possible to construct a B-spline curve based on information about its individual points without using standard fitting tools and complex interpolation schemes.
+To ensure flexibility and convenience of working with geometric models in CAD systems, algorithms for converting geometric representations are demanded, among which methods of their one-to-one and exact transformation are of great importance. Here we propose a technique for converting a spline curve into a corresponding equivalent B-spline curve based on combining Bezier segments and the removal of multiple knots to obtain a more compact B-spline representation. This approach makes it possible to construct a B-spline curve based on information about its individual points without using standard fitting tools and complex interpolation schemes.
 
 This is `C/C++` implementation of the B-Spline curve fitting algorithm.
 
